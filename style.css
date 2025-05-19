@@ -51,10 +51,11 @@ body {
 .card[data-state="#contact"] {
   height: 430px;
 }
-
 .card[data-state="#experience"],
 .card[data-state="#friends"] {
-  height: 550px;
+  min-height: 550px; /* Ganti height dengan min-height */
+  max-height: 550px; /* Tambahkan max-height */
+  overflow-y: auto;  /* Izinkan scrolling vertikal */
 }
 
 .card-header {
@@ -143,12 +144,14 @@ body {
   display: flex;
   padding-top: 10px;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 .card-section {
   min-height: 200px;
   display: none;
   animation: fadeIn 0.6s both;
+  overflow-y: auto; /* Tambahkan ini */
 }
 
 .card-section.is-active {
