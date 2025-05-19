@@ -146,6 +146,12 @@ body {
   flex-direction: column;
   overflow-y: auto;
 }
+.scrollable-content {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 20px 15px;  /* Atas-bawah: 20px, Kiri-kanan: 15px */
+  margin-top: 10px;    /* Jarak dari judul section */
+}
 
 .card-section {
   min-height: 200px;
