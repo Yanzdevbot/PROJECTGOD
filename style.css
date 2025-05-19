@@ -59,9 +59,11 @@ body {
 }
 
 .card-header {
-  position: relative; /* Tetap di tempat */
-  z-index: 2;        /* Pastikan di atas konten */
-  background: var(--primary); /* Opsional: beri background */
+  position: relative;
+  display: flex;
+  height: 150px;
+  flex-shrink: 0;
+  width: 100%;
 }
 
 .card-cover {
