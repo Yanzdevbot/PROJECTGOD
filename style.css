@@ -220,9 +220,8 @@ body {
 }
 
 .card-timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 15px; /* Jarak antar item */
+  margin-top: 30px;
+  position: relative;
 }
 
 .card-timeline:after {
