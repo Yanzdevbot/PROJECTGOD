@@ -1,4 +1,4 @@
-# Aka Profile
+# Yanz Profile
 
 Aka Profile adalah sebuah website yang dirancang untuk memberikan tampilan profil yang profesional, elegan, dan mudah digunakan.
 
@@ -25,7 +25,7 @@ Ikuti langkah-langkah berikut untuk menjalankan website ini di Vercel:
    Setelah proses selesai, website akan langsung tersedia dengan URL yang diberikan oleh Vercel.
 
 ## Hak Cipta
- template profile card by dimas
+ template profile card by Yanz
 
- © 2025 Aka Profile. Semua hak dilindungi.  
+ © 2025 Yanz Profile. Semua hak dilindungi.  
 Dibuat dengan perhatian terhadap detail untuk pengalaman pengguna yang lebih baik.
